@@ -15,6 +15,9 @@ divCardBody.classList.add('card-body');
 newheading.classList.add('card-title')
 newParagraph.classList.add('card-text')
 
+divCardBody.appendChild(newheading);
+divCardBody.appendChild(newParagraph);
+divCard.appendChild(divCardBody);
 
 
 
